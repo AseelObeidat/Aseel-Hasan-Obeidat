@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Picker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .color-picker {
+      
+      
+      gap: 15px;
+      max-width: 400px;
+      margin: auto;
+    }
+
+    .color-option {
+      position: relative;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    label {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 3px solid transparent;
+      transition: border 0.2s;
+    }
+
+    
+    input[type="radio"]:checked + label {
+      border: 3px solid #000;
+    }
+
+    
+    .color1 { background-color: #f99; }
+    .color2 { background-color: #9f9; }
+    .color3 { background-color: #9cf; }
+    .color4 { background-color: #ccf; }
+    .color5 { background-color: #f00; }
+    .color6 { background-color: #f90; }
+    .color7 { background-color: #f66; }
+    .color8 { background-color: #fc9; }
+    .color9 { background-color: #c96; }
+    .color10 { background-color: #ff0; }
+    .color11 { background-color: #c0f; }
+    .color12 { background-color: #f3c; }
+    .color13 { background-color: #93f; }
+    .color14 { background-color: #eaf; }
+    .color15 { background-color: #3c3; }
+    .color16 { background-color: #99f; }
+    .color17 { background-color: #9c9; }
+    .color18 { background-color: #3cf; }
+  </style>
+</head>
+<body>
+
+  <h2>Select a Color</h2>
+
+  <div class="color-picker">
+    <div class="color-option">
+      <input type="radio" name="color" id="color1">
+      <label for="color1" class="color1"></label>
+    </div>
+    <div class="color-option">
+      <input type="radio" name="color" id="color2">
+      <label for="color2" class="color2"></label>
+    </div>
+    <div class="color-option">
+      <input type="radio" name="color" id="color3">
+      <label for="color3" class="color3"></label>
+    </div>
+    <div class="color-option">
+      <input type="radio" name="color" id="color4">
+      <label for="color4" class="color4"></label>
+    </div>
+    <div class="color-option">
+      <input type="radio" name="color" id="color5">
+      <label for="color5" class="color5"></label>
+    </div>
+    <div class="color-option">
+      <input type="radio" name="color" id="color6">
+      <label for="color6" class="color6"></label>
+    </div>
+    <div class="color-option">
+      <input type="radio" name="color" id="color7">
+      <label for="color7" class="color7"></label>
+    </div>
+    <div class="color-option">
+      <input type="radio" name="color" id="color8">
+      <label for="color8" class="color8"></label>
+    </div>
+    <!-- Add more colors as needed using the same pattern -->
+  </div>
+
+</body>
+</html>
